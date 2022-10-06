@@ -1,0 +1,36 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+.titel {
+  font: weight 100px;
+  color: green;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: red;
+}
+p {
+  color: blue;
+  text-align: start;
+}
+h1 {
+  color: blue;
+  font-size: 25px;
+}
+.hello {
+  color: rgb(43, 155, 12);
+}
+.links {
+  color: purple;
+}
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 25px;
+}
+.tigerr {
+  font-size: 100px;
+  color: green;
+}
