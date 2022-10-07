@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  padding: 125px;
+  border: 10px solid black;
+}
+/* content-box respecteert je geven width/height niet border-box wel*/
