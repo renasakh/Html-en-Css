@@ -1,0 +1,12 @@
+.container{
+    text-align: justify;
+    letter-spacing: 0.15px;
+    width: 30%;
+}
+h1{
+    font-family: sans-serif;
+
+}
+p{
+    font-size: 15px;
+}

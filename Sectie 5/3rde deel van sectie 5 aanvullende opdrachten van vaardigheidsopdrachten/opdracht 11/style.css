@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: 150px;
+}
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0fr 0fr;
+  grid-template-areas:
+    "img1 img2 img3 img4 img5"
+    "copy1 copy2 copy3 copy4 img5";
+}
+
+.img1 {
+  grid-area: img1;
+}
+.img2 {
+  grid-area: img2;
+}
+.img3 {
+  grid-area: img3;
+}
+.img4 {
+  grid-area: img4;
+}
+.img5 {
+  grid-area: img5;
+  height: 100%;
+}
+.copy1 {
+  grid-area: copy1;
+}
+.copy2 {
+  grid-area: copy2;
+}
+.copy3 {
+  grid-area: copy3;
+}
+.copy4 {
+  grid-area: copy4;
+}
+
+img:hover {
+  transition-duration: 0.5s;
+  width: 120%;
+  height: 120%;
+}
