@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+}
+img {
+  margin-right: 180px;
+  margin-top: 167px;
+  width: 400px;
+  height: 200px;
+}
+h1 {
+  position: absolute;
+  right: 90px;
+  top: 170px;
+}
+p {
+  position: absolute;
+  right: 10px;
+  bottom: 340px;
+  width: 35%;
+}
+button {
+  position: absolute;
+  right: 90px;
+  background-color: rgb(254, 231, 189);
+  border-radius: 1rem;
+}
