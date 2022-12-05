@@ -1,0 +1,32 @@
+* {
+  margin: 20px;
+  padding: 0;
+}
+.daddy {
+  display: flex;
+  background-color: pink;
+  border: 6px solid black;
+  border-style: dashed;
+}
+.container {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: pink;
+  border: 2px solid black;
+}
+.container2 {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: pink;
+  border: 2px solid black;
+}
+.row {
+  background-color: rgb(255, 0, 225);
+  width: 95%;
+}

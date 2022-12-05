@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: grey;
+}
+img{
+    padding: 10px
+margin-left: 5%;
+    width: 40%;
+}
+
+ul{
+    display: flex;
+background-color: purple;
+list-style-type: none;
+}
+nav li{
+    width: 100%;
+}
+#home{
+  width: 270%;
+}
+
+footer li{
+    padding-top: 10px;
+    margin-left: 80px;
+}
+nav li{
+    padding: 5px;
+    border: solid 1px black;
+}
+
+@media screen and (max-width: 1100px) {
+#home{
+    width: 100%;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    display: table-column;
+  margin-left: 10%;
+    width: 75%;
+
+}
+
+
+}
+
+
+
+
