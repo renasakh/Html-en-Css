@@ -1,0 +1,13 @@
+.flex-container {
+    display: flex;
+    height: 50vh;
+    border: solid 2px black;
+  }
+  
+  .flex__child {
+    overflow-y: scroll;
+    flex-basis: 30rem; /* 2: ja ze zijn 300 breed */
+    padding: 2px;
+    border: solid 1px green;
+  }
+  

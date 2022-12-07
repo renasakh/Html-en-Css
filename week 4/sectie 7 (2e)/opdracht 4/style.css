@@ -1,0 +1,18 @@
+.flex-container {
+  display: flex;
+  height: 200px;
+  width: 40%;
+  flex-wrap: wrap;
+  border: solid 2px black;
+}
+
+.flex__child {
+  width: 100px;
+  height: 100px;
+  border: solid 1px green;
+}
+
+
+div {
+  background-color: #fff;
+}

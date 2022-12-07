@@ -1,0 +1,31 @@
+.flex-container {
+  display: flex;
+  width: 60%;
+  border: solid 3px black;
+  line-height: 15vh;
+  text-align: center;
+}
+.flex__child {
+  flex: auto;
+  background-color: green;
+}
+
+.flex__child:first-child {
+  margin-top: 45px;
+  height: 70px;
+  background-color: red;
+}
+.flex__child:nth-child(2) {
+  width: 30%;
+  background-color: blue;
+}
+.flex__child:nth-child(3) {
+  height: 70px;
+  width: 30%;
+  background-color: green;
+}
+.flex__child:nth-child(4) {
+  margin: auto;
+  height: 70px;
+  background-color: yellow;
+}

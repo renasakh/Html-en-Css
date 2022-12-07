@@ -1,0 +1,10 @@
+.flex-container {
+  display: flex;
+  height: 50vh;
+  border: solid 2px black;
+}
+
+.flex__child {
+  padding: 2px;
+  border: solid 1px green;
+}
