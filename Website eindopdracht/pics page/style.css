@@ -1,0 +1,158 @@
+p {
+  font-size: 80%;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 2px;
+  background-image: linear-gradient(rgb(3, 3, 109), purple);
+  text-transform: uppercase;
+  font-size: 100%;
+}
+/*flexbox*/
+ul {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  list-style-type: none;
+  gap: 20%;
+}
+/*navbar links*/
+li a {
+  font-size: 120%;
+  color: black;
+  text-decoration: none;
+}
+/*button*/
+button:hover {
+  background-color: #155cb2;
+  box-shadow: inset 20px 0 0 0 rgb(22, 24, 166);
+  transition: ease-out 0.5s;
+  outline: none;
+}
+li button {
+  width: 200%;
+  height: 200%;
+  border-radius: 2rem;
+  background-color: rgb(22, 24, 166);
+  border: 1px solid rgb(6, 21, 133);
+}
+nav img {
+  position: absolute;
+  margin-top: 1%;
+  margin-left: 3%;
+  border-radius: 4rem;
+  width: 8%;
+}
+nav {
+  background-color: #12509b;
+  border-radius: 5px;
+  grid-area: nav;
+}
+
+footer {
+  display: flex;
+  gap: 20%;
+  background-color: #084489;
+  border-radius: 2px;
+  grid-area: footer;
+}
+footer p {
+  font-size: 50%;
+}
+h2 {
+  text-align: center;
+}
+.content2 {
+  font-size: 64%;
+  font-weight: bold;
+  background: linear-gradient(blue, purple);
+  grid-area: content1;
+}
+.content2 img {
+  display: flex;
+  text-align: left;
+  border-radius: 3rem;
+  width: 60px;
+  height: 60px;
+}
+.content2 img:hover {
+  transition: ease-out 2s;
+  width: 15%;
+  height: 15%;
+}
+.content1 {
+  font-size: 64%;
+  background: linear-gradient(blue, purple);
+  grid-area: content2;
+}
+.content1 p {
+  padding: 40px;
+  font-size: 300%;
+  letter-spacing: 6px;
+}
+
+.container {
+  display: grid;
+  height: 100vh;
+  gap: 4px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 1fr 1fr;
+  grid-template-areas:
+    "nav nav nav nav"
+    "content1 content1 content2 content2"
+    "content1 content1 content2 content2"
+    "footer footer footer footer";
+}
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 110%;
+  }
+  .container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.4fr 0.5fr 0.5fr 0.5fr 0.1fr;
+    grid-template-areas:
+      "nav nav"
+      "sidebar main"
+      "content1 content1"
+      "content2 content2"
+      "footer footer";
+  }
+  main {
+    background-position: 20% 40%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    letter-spacing: 0;
+    font-size: 23%;
+  }
+
+  footer {
+    gap: 50px;
+  }
+  .container {
+    height: 200vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.3fr 0.1fr 0fr 0.1fr 0.1fr 0.01fr;
+    grid-template-areas:
+      "nav"
+      "content1"
+      "content1"
+      "content1"
+      "content1"
+      "content2"
+      "footer";
+  }
+  li {
+    margin-right: 5%;
+  }
+  li a {
+    font-size: 50%;
+    color: black;
+    text-decoration: none;
+  }
+}

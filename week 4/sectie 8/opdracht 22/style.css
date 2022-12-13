@@ -1,0 +1,70 @@
+body {
+  background-color: palevioletred;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container {
+  display: grid;
+  margin: auto;
+  gap: 10px;
+  width: 60%;
+  height: 40vh;
+  border: 3px solid black;
+  grid-template-columns: 2fr 1fr 2.2fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 3fr;
+  grid-template-areas:
+    "nul een twee"
+    "drie een vier"
+    "drie vijf zes"
+    "acht zeven zeven"
+    "acht negen tien";
+}
+
+.child {
+}
+.child-0 {
+  grid-area: nul;
+  background-color: yellow;
+}
+.child-1 {
+  grid-area: een;
+  background-color: yellow;
+}
+.child-2 {
+  grid-area: twee;
+  background-color: pink;
+}
+.child-3 {
+  grid-area: drie;
+  background-color: red;
+}
+.child-4 {
+  grid-area: vier;
+  background-color: blue;
+}
+.child-5 {
+  grid-area: vijf;
+  background-color: purple;
+}
+.child-6 {
+  grid-area: zes;
+  background-color: green;
+}
+.child-7 {
+  grid-area: zeven;
+  background-color: rgb(26, 138, 185);
+}
+.child-8 {
+  grid-area: acht;
+  background-color: rgb(26, 138, 185);
+}
+.child-9 {
+  grid-area: negen;
+  background-color: rgb(26, 138, 185);
+}
+.child-10 {
+  grid-area: tien;
+  background-color: rgb(26, 138, 185);
+}

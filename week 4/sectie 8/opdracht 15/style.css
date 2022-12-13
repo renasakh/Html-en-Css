@@ -1,0 +1,42 @@
+body {
+  background-color: palevioletred;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container {
+  gap: 20px;
+  display: grid;
+  margin: auto;
+  width: 60%;
+  height: 40vh;
+  border: 3px solid black;
+  grid-template-columns: 5fr 5fr 10fr;
+  grid-template-rows: 1fr 1fr 2fr;
+}
+
+.child {
+}
+
+.child-a {
+  background-color: yellow;
+}
+.child-b {
+  background-color: pink;
+}
+.child-c {
+  background-color: red;
+}
+.child-d {
+  background-color: blue;
+}
+.child-e {
+  background-color: purple;
+}
+.child-f {
+  background-color: green;
+}
+.child-g {
+  background-color: rgb(26, 138, 185);
+}

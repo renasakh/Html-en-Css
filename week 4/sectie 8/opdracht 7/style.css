@@ -1,0 +1,43 @@
+body {
+  background-color: palevioletred;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 0fr 0fr 0fr 0fr;
+  grid-template-rows: 0fr 0fr;
+  margin: auto;
+  width: 40%;
+  height: 60vh;
+  border: 3px solid black;
+}
+
+.child {
+  height: 70px;
+  width: 80px;
+}
+
+.child-a {
+  background-color: yellow;
+}
+.child-b {
+  background-color: pink;
+}
+.child-c {
+  background-color: red;
+}
+.child-d {
+  background-color: blue;
+}
+.child-e {
+  background-color: purple;
+}
+.child-f {
+  background-color: green;
+}
+.child-g {
+  background-color: rgb(26, 138, 185);
+}

@@ -1,0 +1,53 @@
+body {
+  background-color: palevioletred;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container {
+  gap: 20px;
+  display: grid;
+  margin: auto;
+  width: 60%;
+  height: 40vh;
+  border: 3px solid black;
+  grid-template-columns: 5fr 5fr 10fr;
+  grid-template-rows: 1fr 1fr 2fr;
+  grid-template-areas:
+    "b c d"
+    "a e f"
+    "a g x";
+}
+
+.child {
+}
+
+.child-a {
+  grid-area: a;
+  background-color: yellow;
+}
+.child-b {
+  grid-area: b;
+  background-color: pink;
+}
+.child-c {
+  grid-area: c;
+  background-color: red;
+}
+.child-d {
+  grid-area: d;
+  background-color: blue;
+}
+.child-e {
+  grid-area: e;
+  background-color: purple;
+}
+.child-f {
+  grid-area: f;
+  background-color: green;
+}
+.child-g {
+  grid-area: g;
+  background-color: rgb(26, 138, 185);
+}
